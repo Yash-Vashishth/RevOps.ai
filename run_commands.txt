@@ -1,0 +1,9 @@
+pip install -r requirements.txt
+
+fill in .env from .env.example
+
+uvicorn main:app --reload
+
+streamlit run dashboard.py
+
+python simulate_batch.py
